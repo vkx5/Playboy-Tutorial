@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Central de Tutoriais</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="window" id="app-window" role="application">
+    <button id="logoutBtn" class="logout" title="Sair">Sair</button>
+
+    <div class="card-header">
+      <img class="logo" src="https://blob.promisse.app/216240699819950080/5154919161_Sem_Titulo-2.png" alt="Logo Tutorial">
+      <div>
+        <h1 class="title">Central de Tutoriais</h1>
+        <p class="subtitle">Escolha o produto e veja o passo a passo completo</p>
+      </div>
+    </div>
+
+    <div id="login-screen">
+      <h2>Selecione seu Produto</h2>
+      <div id="customSelect" class="custom-select" tabindex="0">
+        <div class="custom-select__trigger" id="trigger">
+          <span class="selected-text" id="selectedText">Selecionar</span>
+          <i class="fa-solid fa-chevron-down caret"></i>
+        </div>
+        <div class="custom-select__dropdown" id="dropdown">
+          <ul class="custom-select__list" id="optionsList"></ul>
+        </div>
+      </div>
+
+      <button id="enterBtn" class="btn" type="button" data-product-code="">Continuar</button>
+      <p class="small">Selecione o produto desejado para ver o tutorial completo.</p>
+    </div>
+
+    <div id="content-screen" style="display:none;"></div>
+
+    <p class="legal">© 2025 PlayboyCheats — Todos os direitos reservados</p>
+    <div class="discord-link">
+      <a href="https://discord.gg/playboycheats" target="_blank" title="Discord Oficial">
+        <i class="fa-brands fa-discord"></i>
+      </a>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
