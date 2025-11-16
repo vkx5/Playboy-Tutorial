@@ -129,8 +129,8 @@ const products = {
       ]}
     ]
   },
-    "FF5": {
-    nome: "FreeFire Internal",
+    "WZ5": {
+    nome: "Warzone External",
     tutorial: [
       { icon: "fa-microchip", titulo: "Drivers e Preparação", passos: [
         "Desative o antivírus com <b>dControl.exe</b>",
@@ -138,11 +138,7 @@ const products = {
         "Reinicie o PC após instalação"
       ]},
       { icon: "fa-desktop", titulo: "Emulador", passos: [
-        "Use <b>BlueStacks/Msi 5.12</b> ou <b>BlueStacks/Msi 5.21</b>",
-        "Crie uma nova instância →  <b>Pie P64 Bits</b>",
-        "Ative <b>OpenGL</b> → nas Configurações → Graficos",
-        "Ative <b>Android Debug (ADB)</b> nas Configurações → Avançado",
-        "Baixe sempre o <b>Freefire Recomendado</b>"
+        "Deixe o Warzone no <b>Modo de janela cheia</b>",
       ]},
       { icon: "fa-key", titulo: "Login", passos: [
         "Abra o arquivo <b>.exe</b> como administrador",
@@ -155,7 +151,7 @@ const products = {
       ]}
     ]
   },
-    "VAL": {
+      "VAL": {
     nome: "Valorant AimColor",
     tutorial: [
       { icon: "fa-microchip", titulo: "Drivers e Preparação", passos: [
@@ -179,8 +175,8 @@ const products = {
       ]}
     ]
   },
-    "WZN": {
-    nome: "Warzone External",
+    "BD1": {
+    nome: "Blood Strike External",
     tutorial: [
       { icon: "fa-microchip", titulo: "Drivers e Preparação", passos: [
         "Desative o antivírus com <b>dControl.exe</b>",
@@ -188,7 +184,7 @@ const products = {
         "Reinicie o PC após instalação"
       ]},
       { icon: "fa-desktop", titulo: "Configurações", passos: [
-        "Deixe o Warzone no <b>Modo de janela cheia</b>",
+        "Deixe o Blood Strike no <b>Modo de janela cheia</b>",
       ]},
       { icon: "fa-key", titulo: "Login", passos: [
         "Abra o arquivo <b>.exe</b> como administrador",
